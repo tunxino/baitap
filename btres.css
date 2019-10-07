@@ -1,0 +1,120 @@
+.header {
+    border-left: 10px solid white;
+    width: 100%;
+    background: #e5e5e5;
+    height: 100px;
+}
+
+.header p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #aaaaaa;
+}
+
+.content .container-fluid {
+    margin: 0 0;
+    display: flex;
+    margin-top: 5px;
+}
+
+.link {
+    flex-shrink: 0;
+    width: 200px;
+}
+
+.link ul {
+    padding: 0px;
+    list-style-type: none;
+    width: 100%;
+    border-bottom: 5px solid white;
+}
+
+.link ul li p {
+    cursor: pointer;
+    text-decoration: underline;
+    height: 40px;
+    background: #e5e5e5;
+    text-align: center;
+}
+
+.bantin {
+    padding: 0px 0px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.khoianh {
+    padding: 0px 5px;
+}
+
+figcaption {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.khoianh p {
+    color: #9c938c;
+    font-size: 13px;
+}
+
+.khoianh p i {
+    font-size: 5px;
+}
+
+.about {
+    width: 200px;
+    height: 210px;
+    background: #e5e5e5;
+    flex-shrink: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about h3 {
+    padding-top: 20px;
+    color: #aaaaaa;
+}
+
+.about p {
+    color: #aaaaaa;
+}
+
+.footer {
+    border: 10px solid white;
+    background: #e5e5e5;
+    height: 50px;
+}
+
+.footer p {
+    text-align: center;
+    color: #aaaaaa;
+}
+
+@media (max-width: 620px) {
+    .content .container-fluid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .link {
+        width: 100%;
+    }
+    .bantin {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .khoianh img {
+        width: 100%;
+    }
+    .about {
+        width: 100%;
+    }
+}
